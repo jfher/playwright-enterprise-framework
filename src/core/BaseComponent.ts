@@ -2,7 +2,7 @@ import { Page } from "@playwright/test";
 
 export abstract class BaseComponent {
 
-    protected constructor(
+    constructor(
         protected readonly page: Page
     ) { }
 

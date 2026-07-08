@@ -24,6 +24,8 @@
       "@components/*": ["src/components/*"],
       "@config/*": ["src/config/*"],
       "@config": ["src/config"],
+      "@models": ["src/models"],
+      "@models/*": ["src/models/*"],
       "@core/*": ["src/core/*"],
       "@utils/*": ["src/utils/*"]
     }

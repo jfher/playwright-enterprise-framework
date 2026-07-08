@@ -2,7 +2,7 @@ import { Page, expect } from "@playwright/test";
 
 export abstract class BasePage {
 
-    protected constructor(
+    constructor(
         protected readonly page: Page
     ) { }
 
@@ -32,10 +32,6 @@ export abstract class BasePage {
         await this.page.screenshot({
             path: `artifacts/screenshots/${name}.png`
         });
-    }
-
-    protected async expectLoaded(locator: ReturnType<Page["locator"]>) {
-        await expect(locator).toBeVisible();
     }
 
 }
