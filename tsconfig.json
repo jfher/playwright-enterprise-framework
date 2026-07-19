@@ -20,8 +20,11 @@
     "baseUrl": ".",
 
     "paths": {
+      "@pages": ["src/pages"],
       "@pages/*": ["src/pages/*"],
       "@components/*": ["src/components/*"],
+      "@fixtures": ["src/fixtures"],
+      "@fixtures/*": ["src/fixtures/*"],
       "@config/*": ["src/config/*"],
       "@config": ["src/config"],
       "@models": ["src/models"],
